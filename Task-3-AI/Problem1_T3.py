@@ -50,7 +50,7 @@ try:
     mean(lst)
     print(f'median: {median(lst)}')
     print(mode(lst))
-except:
+except ValueError:
      print('enter integer number plz')
 #median(lst)
 
