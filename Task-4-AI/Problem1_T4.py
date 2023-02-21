@@ -3,6 +3,8 @@
 
 # In[57]:
 
+def mean(lst=[]):
+     print("Mean:", "%.3f" % (sum(lst)/len(lst)))
 
 def mid(lst=[]):
     lst.sort()
